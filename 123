@@ -1,0 +1,18 @@
+print("Calculator")
+while True:
+
+    a = float(input("num1: "))
+    b = float(input("num2: "))
+    z = (input("Press ('+','-','*','/'): "))
+    print("Result")
+    if z == '+':
+        print(a + b)
+    elif z == '-':
+        print(a - b)
+    elif z == '*':
+        print(a * b)
+    elif z == '/':
+        if b != 0:
+            print(a / b)
+        else:
+            print("don't divide by 0")
